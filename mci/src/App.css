@@ -1,0 +1,195 @@
+/* Header Styles */
+header {
+  background-color: rgb(128, 28, 28); 
+  color: #ffffff; 
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.header-right a {
+  text-decoration: none;
+  color: white; 
+  display: inline-block; 
+}
+
+.header-button { 
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  margin-right: 10px; 
+  background-color: rgb(128, 28, 28); 
+  color: white; 
+  transition: background-color 0.3s; 
+  font-size: 25px;
+  padding: 10px 20px;  
+}
+
+.header-button:hover {
+  background-color: #2a3764; 
+}
+
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.signin-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signin-form h2 {
+  color: #002f34;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.show-password {
+   
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.forgot-password a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #0046be;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signin-button:hover {
+  background-color: #003399;
+}
+
+
+/* Sign Up styles */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.signup-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signup-form h2 {
+  color: #002f34;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.show-password {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.create-account-button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #0046be;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-account-button:hover {
+  background-color: #003399;
+}
+
+/*main */
+main {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}

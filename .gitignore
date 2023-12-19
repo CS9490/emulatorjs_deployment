@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+mci/node_modules
+mci/.pnp
+mci/.pnp.js
+
+# testing
+mci/coverage
+
+# production
+mci/build
+
+# misc
+mci/.DS_Store
+mci/.env.local
+mci/.env.development.local
+mci/.env.test.local
+mci/.env.production.local
+
+mci/npm-debug.log*
+mci/yarn-debug.log*
+mci/yarn-error.log*
+
+# virtual environment
+.venv/
+
+# binary Python files
+__pycache__/
+
+# env files - placed within server directory for this project
+server/.env
+
+# .DS_store files - pesky things from Mac... not needed in Git
+**/.DS_Store
+
+# database - not to be uploaded to github - created when the app is run
+server/instance
